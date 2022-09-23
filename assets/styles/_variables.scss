@@ -1,0 +1,54 @@
+//Colors
+$first-color: rgba(55, 66, 250, 1);
+$first-color-dark: rgb(42, 52, 224);
+$first-color-light: rgb(97, 106, 255);
+$first-color-lighten: rgb(242, 243, 255);
+
+$second-color: rgba(255, 165, 2, 1.0);
+$second-color-dark: rgb(182, 122, 14);
+$second-color-light: rgb(255, 191, 84);
+$second-color-lighten: rgb(255, 228, 181);
+
+$shadow-color: rgba(47, 53, 66, .2);
+$title-color: rgb(6, 10, 68);
+$text-color: rgba(87, 96, 111, 1);
+$text-color-light: rgba(164, 176, 190, 1);
+$border-color: rgb(241, 243, 248);
+$body-color: #fff;
+$container-color: #fff;
+
+
+//font and typography
+$body-font: 'Poppins', sans-serif;
+$header-height: 3.5rem;
+$biggest-font-size: 2.25rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: .938rem;
+$small-font-size: .813rem;
+$smaller-font-size: .75rem;
+
+$medium-font: 500;
+$semi-bold-font: 600;
+
+
+//z-index
+$z-tooltip: 10;
+$z-fixed: 100;
+
+//animation
+$slow-anim: .4s;
+$fast-anim: .3s;
+
+
+//responsive typography
+@media screen and (min-width: 1024px) {
+  $biggest-font-size: 4rem;
+  $h1-font-size: 2.25rem;
+  $h2-font-size: 1.5rem;
+  $h3-font-size: 1.25rem;
+  $normal-font-size: 1rem;
+  $small-font-size: .875rem;
+  $smaller-font-size: .813rem;
+}
