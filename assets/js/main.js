@@ -12,7 +12,7 @@ window.addEventListener('scroll', scrollHeader);
 
 
 //swiper
-const swiperPopular = new Swiper(".popular__container", {
+const swiper = new Swiper(".popular__container", {
 
     spaceBetween: 32,
     grabCursor: true,
