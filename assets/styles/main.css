@@ -457,8 +457,6 @@ button {
 
 .contact__container {
   row-gap: 2rem;
-  display: flex;
-  justify-content: center;
 }
 
 .contact__images {
